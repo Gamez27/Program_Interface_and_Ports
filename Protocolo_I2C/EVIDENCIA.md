@@ -1,35 +1,34 @@
-# 🌡️ Control de Temperatura con ESP32, BMP280 y OLED
+# Control de Temperatura con ESP32, BMP280 y OLED
 
 Sistema embebido que lee temperatura y presión atmosférica con el sensor BMP280, los muestra en una pantalla OLED de 0.96", y activa un LED de alerta cuando la temperatura supera un umbral configurable.
 
 ---
 
-## 📸 Evidencia del proyecto
+## Evidencia del proyecto
 
 ### Fase 1 — Prueba inicial de la pantalla OLED (¡Hola Mundo!)
 
 Antes de conectar el sensor, se validó que la pantalla OLED respondía correctamente mostrando un mensaje de prueba.
 
-![Prueba OLED Hola Mundo](/Evidencia/PantallaOLED.jpeg)
+![Prueba OLED Hola Mundo](Evidencia/PantallaOLED.jpeg)
 
----
+
 
 ### Fase 2 — Sistema completo con sensor BMP280
 
 Con el sensor ya conectado, el sistema muestra en tiempo real: temperatura, presión y altitud estimada.
 
-![Sistema completo BMP280 + OLED](/Evidencia/OLET&BNP280.jpeg)
+![Sistema completo BMP280 + OLED](Evidencia/OLET&BNP280.jpeg)
 > **Lecturas en pantalla:** `22.6 °C | 1006 hPa | Alt: 59.6 m`
 
----
 
-### 🎬 Video de funcionamiento
+### Video de funcionamiento
 
 *Video próximamente — se mostrará el ciclo completo: arranque, lectura en vivo y activación del LED de alerta.*
 
 ---
 
-## 🧰 Hardware utilizado
+## Hardware utilizado
 
 | Componente | Descripción |
 |---|---|
@@ -41,7 +40,7 @@ Con el sensor ya conectado, el sistema muestra en tiempo real: temperatura, pres
 
 ---
 
-## 🔌 Conexiones I2C
+## Conexiones I2C
 
 | Señal | ESP32 GPIO |
 |---|---|
@@ -52,7 +51,7 @@ Con el sensor ya conectado, el sistema muestra en tiempo real: temperatura, pres
 
 Tanto la pantalla OLED (dirección `0x3C`) como el sensor BMP280 (dirección `0x76` o `0x77`) comparten el mismo bus I2C.
 
----
+
 
 ## ⚙️ Lógica del programa
 
