@@ -10,21 +10,25 @@ Sistema embebido que lee temperatura y presión atmosférica con el sensor BMP28
 
 Antes de conectar el sensor, se validó que la pantalla OLED respondía correctamente mostrando un mensaje de prueba.
 
-![Prueba OLED Hola Mundo](Evidencia/PantallaOLED.jpeg)
 
+![Prueba OLED Hola Mundo](Evidencia/OLET&BNP280.jpeg)
 
 
 ### Fase 2 — Sistema completo con sensor BMP280
 
 Con el sensor ya conectado, el sistema muestra en tiempo real: temperatura, presión y altitud estimada.
 
-![Sistema completo BMP280 + OLED](Evidencia/OLET&BNP280.jpeg)
+
+![Sistema completo BMP280 + OLED](Evidencia/PantallaOLED.jpeg)
 > **Lecturas en pantalla:** `22.6 °C | 1006 hPa | Alt: 59.6 m`
 
 
 ### Video de funcionamiento
 
-*Video próximamente — se mostrará el ciclo completo: arranque, lectura en vivo y activación del LED de alerta.*
+![Demo funcionando Encendiendo LED](Evidencia/Encender.gif)
+![Demo funcionando Apragando LED](Evidencia/Apagar.gif)
+
+*Arranque, lectura en vivo y activación del LED de alerta.*
 
 ---
 
