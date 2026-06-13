@@ -1,6 +1,7 @@
 # Control de Temperatura con ESP32, BMP280 y OLED
 
-Sistema embebido que lee temperatura y presión atmosférica con el sensor BMP280, los muestra en una pantalla OLED de 0.96", y activa un LED de alerta cuando la temperatura supera un umbral configurable.
+Práctica de laboratorio de la materia Programación de Sistemas Embebidos, enfocada en el protocolo de comunicación I2C. Después de revisar la teoría sobre protocolos de transferencia de datos (I2C, SPI, UART), se implementó un sistema real con ESP32 que comunica dos dispositivos por el mismo bus I2C: una pantalla OLED SSD1306 y un sensor de temperatura/presión BMP280.
+La práctica se desarrolló en dos fases: primero se validó la comunicación con la pantalla mostrando un mensaje de prueba, y después se integró el sensor para mostrar lecturas en tiempo real con control de alertas por temperatura.
 
 ---
 
